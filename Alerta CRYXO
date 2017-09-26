@@ -1,0 +1,23 @@
+Descripción
+________________________________________
+Es un servicio al que se le indica la ubicación de una alerta y devuelve un mapa con la ubicación y las cámaras más cercanas
+
+Tipo
+________________________________________
+GET
+
+URL
+________________________________________
+http://cryxo.com.mx/ServicioISS/Mapa.aspx?lat=[LATITUD]&long=[LONGITUD]
+
+Donde:
+[LATITUD] es la latitud de la ubicación
+[LONGITUD] es la longitud de la ubicación
+
+Ejemplo
+________________________________________
+http://cryxo.com.mx/ServicioISS/Mapa.aspx?lat=0.000000&long=0.0000
+
+Salida
+________________________________________
+Se despliega un mapa con las cámaras o un mensaje de error de JavaScript (alert)
